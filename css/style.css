@@ -1,0 +1,136 @@
+@media (min-width:0px) and (max-width:350px){
+    header{
+        height: 7vh;
+
+    }
+    .container{
+        width: 350px;
+        padding: 0 1rem;
+    }
+    .left-section h2 a{
+        font-size: 1.5rem;
+
+    }
+    .right-section .icon-left i{
+        font-size: 1.2rem;
+    }
+    .middel-section input{
+        width: 100%;
+        padding: 5px;
+        padding-inline-start: 45px;
+
+    }
+    .middel-section .icon-2 i{
+        font-size: 0.9rem;
+    }
+    .middel-section .icon i{
+        font-size: 0.9rem;
+    }
+    .middel-section .icon{
+        left: -4%;
+        top: 20%;
+    }
+    .middel-section .icon-2{
+        top:20%;
+        right: 11%;
+    }
+    .right-section .icon-left ul{
+        min-width: 150px;
+    }
+}
+@media (min-width:351px) and (max-width:767px){
+  .container{
+    padding: 0 2rem;
+  }
+    .left-section h2 a{
+        font-size: 2rem;
+    }
+    .right-section .icon-left i{
+        font-size: 0.9rem;
+    }
+    .middel-section .icon-2 i{
+        font-size: 0.9rem;
+    }
+    .middel-section .icon{
+        left: -3%;
+        top: 25%;
+    }
+    .middel-section .icon-2{
+        top:26%;
+        right: 11%;
+    }
+    .middel-section input{
+        width: 100%;
+    }
+    .right-section .icon-left ul{
+        min-width: 180px;
+    }
+}
+
+
+@media (min-width:768px){
+    .container{
+            width: 768px;
+            padding: 0 3rem;
+        }
+        .middel-section .icon{
+            padding-left: 10px;
+        }
+        .middel-section .icon{
+            left: 5%;
+            top: 30%;
+       
+        }
+        .middel-section .icon-2 {
+         top: 29%;
+            right: 9%;
+        }
+        .middel-section input{
+         padding: 15px;       
+         width: 100%; 
+         padding-inline-start: 50px;
+        }
+
+    }
+
+    @media (min-width: 992px){
+    .container{
+        width: 970px;
+        padding: 0 -7rem;
+    }
+    .middel-section .icon {
+        left: 36%;
+        top: 30%;
+   
+    }
+    .middel-section .icon-2 {
+        top: 29%;
+           right: 31%;
+       }
+
+    }
+
+@media(min-width:992px) and (max-width:1999px){
+    .middel-section .icon {
+        left:3%;
+        top: 30%;
+   
+    }
+    .middel-section .icon-2 {
+        top: 29%;
+           right: 5%;
+       }
+}
+
+    @media(min-width:1200px){
+     
+        .middel-section .icon {
+            left:3%;
+            top: 30%;
+       
+        }
+        .middel-section .icon-2 {
+            top: 29%;
+               right: 4%;
+           }
+    }
